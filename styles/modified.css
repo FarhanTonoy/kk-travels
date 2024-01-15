@@ -1,0 +1,91 @@
+/* shared modifications */
+body{
+    padding: 5px 135px ;
+    font: font-family: 'Mulish', sans-serif;
+}
+.orange-text{
+    color: #FF5400;
+}
+.btn-prime{
+    background: #FF5400;
+    border-radius: 8px;
+    padding: 10px 25px;
+    color: #FFF;
+}
+
+/* header styles */
+.tittle-nav{
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: normal;
+    font: font-family: 'Mulish', sans-serif;
+}
+.logo{
+    padding-left: 0px;
+}
+nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  
+}
+nav > ul {
+    display: flex;
+}
+ul > li {
+    list-style: none;
+    margin-right: 25px;
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.header-div{
+    display: flex;
+}
+/* 2nd Feiled Starts */
+.banner{
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 0 auto;
+    
+}
+.exp-with-para{
+    color: #FFF;
+    font-family: Mulish;
+    text-align: center;
+}
+.exp-text{
+    padding-top: 13%; 
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.first-para{
+    font-size: 0.8rem;
+    padding-left: 20%; 
+    font-weight: 400;
+    max-width: 600px;
+    text-align: center;
+    color: #FFF;
+}
+.first-feild{
+    padding-left: 30%;
+    display: flex;
+    gap: 15px;
+   
+}
+.where-text{
+    width: 90px;
+    color: #FFF;
+    border-radius: 8px;
+}
+.when-text{
+    width: 10%;
+    border-radius: 8px;
+}
+.select-s{
+    border-radius: 8px;
+}
