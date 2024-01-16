@@ -58,6 +58,11 @@
 .header-div{
     display: flex;
 }
+@media screen and (min-width: 600) and (max-width: 996){
+    .nav-one{
+        justify-content: baseline;
+    }
+}
 /* 2nd Feiled Starts */
 .banner{
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../Images/Group\ 13\ \(1\)\ \(1\).png");
@@ -162,13 +167,31 @@
    margin-bottom: 400px;
    margin-left: 15%;
 }
-.universal-text{
+.universal-text3{
     border: 2px solid blue; */
     margin: 0 auto;
     padding: 20px 035px 235px 0px ;
     width: 1150px;
     height: 50px;
     margin-bottom: 30px;
+}
+.des-3{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.des-3p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
 }
 .first-row{
 
@@ -209,6 +232,7 @@
     height: 320px;
 
 }
+
 .part3-img{
     margin-left: 0px;
     padding-top: 7%;
@@ -295,8 +319,118 @@
    margin-left: 15%;
    margin-bottom: 20px;
 }
+.Choose{
+    padding: 10px 0px;
+    margin: auto;
+  }
+  .choose-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px; 
+    font-weight: 800;
+
+  }
+  .para-4{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 643px;
+    justify-content: center;
+    padding: 0px 300px;
+    padding-top: 10px;
+
+ }
+
+
+ .card-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1820px;
+    justify-content: center;
+   
+  
+  
+    
+  }
+  .card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+  
+  
+  }
+  .card-2{
+    padding: 32px;
+  }
+ 
+  
+  .title-4{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 24px 0px;
+  }
+  .describe-4{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+   
+  }
+  .end-4{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+  
+  }
+  .cards{
+      border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+      width: 573px;
+      height: 284px;
+    
+      padding-right: 95px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+  }
+
 
 /* 5th part strats from here */
+.deals{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.disc{
+    padding-left: 40px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
 .part-5{
 
     border: 5px solid olivedrab;
@@ -447,7 +581,7 @@ line-height: 26px; /* 162.5% */
 }
 /* sec 7 starts form here */
 .sec-7{
-    border: 2px solid blue; */
+    /* border: 2px solid blue; */ */
     margin: 0 auto;
     display: flex;
     padding: 20px 350px 235px 0px ;
@@ -528,3 +662,75 @@ line-height: 26px; /* 162.5% */
     font-size: 12px;
     color: #FFF;
 }
+/* footer section styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 130px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 950px;
+    height: 270px;
+    margin-left: 15%;
+  }
+  
+  
+  
+  .foot-info{
+    color: black;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 35px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  
+  footer hr {
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 45px 0;
+    
+  }
+  
+  .logos{
+    margin: 0 auto;
+  }
+  
+  .logos img {
+    width: 60px;
+    margin-left: 22px;
+  }
+.start-div-f{
+    justify-self: center;
+    display: inline;
+}
+
+  
+.title{
+    color: #131318;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: normal;
+    font-family:  'Mulish', sans-serif;
+    
+ 
+}
+
+.logo{
+    width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+padding-right: 20px;
+
+
+}
+.text{
+    color: #ff2a00;
+}
+@media screen and (min-width: 600) and (max-width: 996){
+
+}
+    
