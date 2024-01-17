@@ -968,6 +968,42 @@ padding-right: 20px;
     
     @media only screen and (max-width: 600px){
         .sec6{
-            margin-top: 30%;
+           
+            top: 30%;
+        
+        }
+        .text-container7{
+            margin-left: 1px;
+            width: 330px;
+        }
+       .btn-7{
+         margin-left: 10%;
+       }
+       .get{
+        width: 270px;
+       }
+        .lpic{
+            width: 335px;
+            height: 300px;
+        }
+        .rotate{
+            display: none;
+        }
+        footer{
+            top:30%;
+            width: 170px;
+            height: 470px;
+        }
+        .icon-p-div{
+            margin-top: 70%;
+            margin-right: 90%;
+        }
+        .icon-p-div{
+            margin-left: 7%;
+        }
+        .para-last{
+            width: 187px;
+            margin-right: 2%;
+           
         }
     }
